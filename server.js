@@ -39,7 +39,7 @@ app.get('/', (req, res) => {
 app.post('/login', (req, res) => {
   const { usuario, senha } = req.body;
 
-  // Verificar as credenciais do usuário (substitua por lógica real)
+  // Verificar as credenciais do usuário
   if (usuario === 'admin' && senha === 'admin') {
     req.session.autenticado = true;
     req.session.loginTimestamp = Date.now();
@@ -172,6 +172,6 @@ app.get('/tempo-restante', (req, res) => {
 
 
 // Iniciar o servidor
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Servidor rodando em http://localhost:${port}`);
 });
