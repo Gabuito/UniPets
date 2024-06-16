@@ -1,0 +1,31 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log
+
+# Arquivos de cache
+.cache/
+
+# Arquivos temporários
+tmp/
+
+# Arquivos de compilação
+*.log
+*.tsbuildinfo
+*.d.ts
+.nyc_output/
+
+# Testes
+coverage/
+
+# Arquivos específicos do editor
+.vscode/
+.idea/
+
+# Arquivos de configuração do editor
+.editorconfig
+.eslintrc.*
+.prettierrc.*
+
+# Outros arquivos específicos do projeto
+.env
+.env.*
