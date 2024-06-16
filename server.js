@@ -9,10 +9,10 @@ const port = 3000;
 // Configurar o middleware
 app.use(bodyParser.urlencoded({ extended: true }));
 
-//app.use(express.static('public'));
-app.use(express.static(path.join(process.cwd(), 'public')));
-app.use(express.static(path.join(process.cwd(), 'views')));
-//app.use(express.static('views'));
+app.use(express.static('public'));
+//app.use(express.static(path.join(process.cwd(), 'public')));
+//app.use(express.static(path.join(process.cwd(), 'views')));
+app.use(express.static('views'));
 
 app.use(cookieParser());
 

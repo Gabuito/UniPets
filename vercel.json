@@ -3,15 +3,7 @@
     "builds": [
       {
         "src": "/server.js",
-        "use": "@vercel/node", 
-        "config": {
-          "runtime": "nodejs18.x",
-          "experimental": {
-            "optimizeFor:": {
-              "production": "speed" 
-            }
-          }
-        }
+        "use": "@vercel/node"        
       }
     ],
     "routes": [

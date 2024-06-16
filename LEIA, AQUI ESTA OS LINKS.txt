@@ -1,0 +1,19 @@
+Olá professor,
+
+O Vercel não funcionou de jeito nenhum, cada deploy era um erro diferente: 404, Undefined, Internal Error, Serverless Crash e etc...
+Tentei mudar nomes e acesso do diretorio, melhorar o Vercel.JSON, e nada ajudou.
+Tentei até criar subpastas como a "views" e todo tipo de tutorial da web. 
+
+Em todo caso, aqui está o link: 
+https://uni-pets.vercel.app/
+
+Aqui está o repositorio Github que clonei do local: 
+https://github.com/Gabuito/UniPets
+
+Junto desse TXT está todo o codigo fonte em ZIP.
+
+Fiz um vídeo demonstrando as funcionalidades do servidor rodando (PS: Minha tela é 21:9, então é dificil de ler os textos em vídeo):
+https://www.youtube.com/watch?v=uv5TMC5C2P4
+
+Obrigado por essa materia, evolui muito meu conehcimento, estou até criando umas API de web scraping (clonar páginas no caso) com Express e Selenium.
+
